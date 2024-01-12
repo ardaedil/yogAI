@@ -3,7 +3,7 @@ let poseNet;
 let pose;
 let skeleton;
 let thirtysecs;
-let posesArray = ['Mountain', 'Tree', 'Downward Dog', 'Warrior I', 'Warrior II', 'Chair'];
+let posesArray = ['Mountain', 'Tree', 'Downward Dog', 'Warrior I', 'Warrior II', 'Chair', 'Bend'];
 var imgArray = new Array();
 
 var poseImage;
@@ -39,6 +39,8 @@ function setup() {
   imgArray[4].src = 'imgs/warrior2.svg';
   imgArray[5] = new Image();
   imgArray[5].src = 'imgs/chair.svg';
+  imgArray[6] = new Image();
+  imgArray[6].src = 'imgss/bend.jpg'
   
   poseCounter = 0;
   targetLabel = 1;
